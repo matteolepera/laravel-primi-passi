@@ -20,9 +20,9 @@
     <h1>Chi siamo</h1>
     <div>
         <h3>Noi siamo chi tu vorresti che fossimo</h3>
-        <p>In realtà nemmeno noi sappiamo chi siamo</p>
+        <p>{{$paragraph}}</p>
     </div>
-    <a href="/"> Ritorna alla home</a>
+    <a href={{ route('home') }}> Ritorna alla home</a>
 </body>
 
 </html>

@@ -18,9 +18,9 @@
     <h1>Contattaci</h1>
     <div>
         <h3>Qui puoi contattatarci</h3>
-        <p>vorresti contattarci? Inizia a sperare, perché non è possibile</p>
+        <p>{{$paragraph}}</p>
     </div>
-    <a href="/"> Ritorna alla home</a>
+    <a href={{ route('home') }}> Ritorna alla home</a>
 </body>
 
 </html>

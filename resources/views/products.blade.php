@@ -19,9 +19,9 @@
     <h1>Prodotti</h1>
     <div>
         <h3>Qui ci sono i prodotti</h3>
-        <p>al momento, l'unica cosa che trovi è la tua solitudine</p>
+        <p>{{$paragraph}}</p>
     </div>
-    <a href="/"> Ritorna alla home</a>
+    <a href={{ route('home') }}> Ritorna alla home</a>
 </body>
 
 </html>
