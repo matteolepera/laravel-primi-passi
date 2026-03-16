@@ -15,11 +15,12 @@
             <a href={{ route('about-us') }}>Chi siamo</a>
         </ul>
     </nav>
-    <h1>Home Page</h1>
+    <h1>Contattaci</h1>
     <div>
-        <h3>Questa è una bella pagina</h3>
-        <p>Sei finito qui per caso o per cosa?</p>
+        <h3>Qui puoi contattatarci</h3>
+        <p>vorresti contattarci? Inizia a sperare, perché non è possibile</p>
     </div>
+    <a href="/"> Ritorna alla home</a>
 </body>
 
 </html>
